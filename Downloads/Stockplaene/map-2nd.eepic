@@ -8,9 +8,6 @@
 \fi\endgroup%
 {\renewcommand{\dashlinestretch}{30}
 \begin{picture}(10599,5667)(0,-10)
-\path(5907,5007)(5907,5142)
-\whiten\path(5937.000,5082.000)(5907.000,5142.000)(5877.000,5082.000)(5937.000,5082.000)
-\path(5907,5007)(6132,5007)
 \path(12,2037)(147,2037)
 \path(687,2037)(1137,2037)
 \path(2262,2037)(4062,2037)
@@ -117,6 +114,8 @@
 	(5997,2037)(5997,2082)(5907,2082)
 	(5907,2127)(5772,2127)
 \whiten\path(5817.000,2149.500)(5772.000,2127.000)(5817.000,2104.500)(5817.000,2149.500)
+\path(7482,4917)(7482,5142)
+\whiten\path(7512.000,5082.000)(7482.000,5142.000)(7452.000,5082.000)(7512.000,5082.000)
 \put(4557,3567){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}Toilet}}}}
 \put(4557,3417){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}Gents}}}}
 \put(6087,732){\makebox(0,0)[b]{\smash{{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}Yellow}}}}
@@ -127,7 +126,6 @@
 \put(3837,3567){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}Toilet}}}}
 \put(2172,462){\makebox(0,0)[b]{\smash{{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}area}}}}
 \put(2172,687){\makebox(0,0)[b]{\smash{{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}Green}}}}
-\put(5907,5277){\makebox(0,0)[b]{\smash{{\SetFigFont{9}{10.8}{\rmdefault}{\bfdefault}{\updefault}FH HS 2}}}}
 \put(1722,1632){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}2 elevators}}}}
 \put(5952,3477){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}3 elevators}}}}
 \put(1182,972){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}(small)}}}}
@@ -138,9 +136,6 @@
 \put(7347,2982){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}glass door}}}}
 \put(7347,3972){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}wooden}}}}
 \put(7347,3837){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}door}}}}
-\put(7707,5277){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}FH HS 4}}}}
-\put(6897,5277){\makebox(0,0)[b]{\smash{{\SetFigFont{9}{10.8}{\rmdefault}{\bfdefault}{\updefault}FH HS 3}}}}
-\put(6402,5502){\makebox(0,0)[b]{\smash{{\SetFigFont{9}{10.8}{\rmdefault}{\bfdefault}{\updefault}Lecture halls}}}}
 \put(1227,3252){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}staircase}}}}
 \put(9282,3477){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}open}}}}
 \put(9282,3252){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}staircase}}}}
@@ -149,5 +144,9 @@
 \put(1227,3477){\makebox(0,0)[lb]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}open}}}}
 \put(3837,1062){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}(small)}}}}
 \put(3837,1212){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}staircase}}}}
+\put(5952,5277){\makebox(0,0)[b]{\smash{{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}FH HS 4}}}}
+\put(7212,5502){\makebox(0,0)[b]{\smash{{\SetFigFont{9}{10.8}{\rmdefault}{\bfdefault}{\updefault}Lecture halls}}}}
+\put(6807,5277){\makebox(0,0)[b]{\smash{{\SetFigFont{9}{10.8}{\rmdefault}{\bfdefault}{\updefault}FH HS 3}}}}
+\put(7572,5277){\makebox(0,0)[b]{\smash{{\SetFigFont{9}{10.8}{\rmdefault}{\bfdefault}{\updefault}FH HS 2}}}}
 \end{picture}
 }
