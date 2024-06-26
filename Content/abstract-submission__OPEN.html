@@ -2,7 +2,7 @@
 <html lang='en'>
 
 <head>
-<base href=".">
+<base href="..">
 <title>Operator Theory and Approximation 2024</title>
 <link rel="stylesheet" type="text/css" media="all" href="Styles/main.css"/>
 <link rel="stylesheet" type="text/css" media="all" href="Styles/navigation.css"/>
@@ -21,7 +21,7 @@
 <table class="navigation">
 <tr>
 <td class="navigation">
-	<a href="index.html" class="current">Home</a>
+	<a href="index.html">Home</a>
 </td>
 <td class="navigation">
 	<a href="Content/keydates.html">Key<br>Dates</a>
@@ -40,7 +40,7 @@
 	<a href="Content/registration.html">Registration</a>
 </td>
 <td class="navigation">
-	<a href="Content/abstract-submission.html">Abstract<br>submission</a>
+	<a href="Content/abstract-submission.html" class="current">Abstract<br>submission</a>
 </td>
 <td class="navigation">
 	<div class="dropdown">
@@ -65,61 +65,24 @@
 
 <!---   TEXTBODY   --------------------------->
 
-<h3>Welcome !</h3>
-
-This conference aims to bring together mathematicians working on spectral theory, complex analysis, approximation theory and 
-related areas, and provide a framework for scientific exchange.
-<p>
-Registration and submission of abstracts will open December 1, 2023, and should be done through this website.
-The registration fee is &euro; 200, which includes the conference dinner. Participants who plan to not attend the dinner, 
-should pay a reduced fee of &euro; 130.
-</p>
-Our funding is not yet settled. It might be that we can offer limited support for colleagues who could not attend otherwise.
+<h1>Abstract Submission</h1>
+The deadline for submitting the abstract is <span style="color:green">June 23, 2024</span>. 
 <br><br>
-The conference program consists of invited talks (50 min + discussion) and contributed talks (25 min + discussion).
-<br>
-Confirmed plenary speakers are:
-<p>
-	Roman Bessonov
-	<br>
-	Sergey Denisov
-	<br>
-	Pavel Exner
-	<br>
-	Arno Kuijlaars
-	<br>
-	Matthias Langer
-	<br>
-	Milivoje Lukic
-	<br>
-	Marius Lemm
-	<br>
-	Mikhail Sodin
-	<br>
-	Christiane Tretter
-	<br>
-	Peter Yuditskii
-</p>
-For further information, please check the links on this website. 
-If you have special requests which are not answered by the information on this site, please use the conference 
-email address 
-<p>
-<em>ota2024</em> (at) <em>tuwien.ac.at</em> 
-</p>
-Looking forward to seeing you in Vienna!
-<br><br>
-With best regards, the organisers
-<br><br>
-Benjamin Eichinger
-<br>
-Harald Woracek
+To submit your abstract please proceed as follows:
+<ul>
+<li>Download the LaTeX-template <a href="Downloads/TemplateAbstract.tex" target="_blank">TemplateAbstract.tex</a>
+	and <span style="color:green">use this file</span> to write your abstract.</li>
+<li>Please <span style="color:green">do not</span> insert additional user-defined commands or load additional packages.</li>
+<li>Make sure that your abstract compiles with <span style="color:green">pdflatex</span> without errors.</li>
+<li>Before upload, please rename your file as <span style="color:green">Surname-Firstname.tex</span>.
+</ul>
+Did you follow the above four steps ? 
+<div class="click">Click here to confirm, and then click the upload button to upload your LaTeX-file.</div>
+<div class="showup">
+    <input id="Button" type="button" value="Upload file" style="background-color:#f5f5f5; cursor:pointer;" />
+</div>
 
-
-<!---   PAGE FOOT   --------------------------->
-
-<object data="Templates/footer.html" 
-        type="text/html" width="1100" height="500px"
-        style="overflow:hidden; width: 1100px; height: 500px"></object>
+<script src="Script/abstract-submission.js"></script>
 
 </body>
 </html>
